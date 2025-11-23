@@ -40,6 +40,7 @@ class SpotifyHistory:
     def new_token(self):
         #retrieving a new token
         print("Refreshing token. . .")
+        print("Maahi")
 
         callRefresh = Refresh()
         self.access_token = callRefresh.refresh()
